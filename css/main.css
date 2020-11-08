@@ -52,7 +52,7 @@ header nav a:hover{
     justify-content: center;
     align-items: flex-start;
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/IMG_20201014_161302361.jpg');
+    background: linear-gradient(to left,transparent,rgba(0,0,0,1)85%), url('../img/Juba_Sumo.jpg');
     background-size: cover;
     height: 500px;     
     
@@ -100,4 +100,9 @@ header nav a:hover{
 
 .carrosel_photos {
     margin-top: 5px;
+}
+
+.box_photos:hover {
+    border: 3px solid rgba(255, 255, 255, 1);
+    transition: .1s ease all;
 }
